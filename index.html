@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio - Oshan</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="main.jpg" alt="Oshan" class="logo-image">
+                    <span>Oshan</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                    <div class="theme-toggle-wrapper">
+                        <i class="fas fa-sun"></i>
+                        <label class="theme-switch">
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="slider"></span>
+                        </label>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </nav>
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container kinetic-reveal">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span class="highlight">Oshan</span></h1>
+                    <p class="role">I'm a <span class="rotating-text"></span></p>
+                    <p class="description">I'm an undergraduate student in Computer Science with a strong interest in problem-solving, software development, and building real-world tech solutions. I enjoy learning new technologies, exploring how systems work, and applying what I learn to practical projects.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:oshanherath01@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/oshan-lakshitha" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Oshan-Lakshitha" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/Oshan_hera" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="main.jpg" alt="Oshan">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header kinetic-reveal">
+                <h2>Recent <span class="highlight">Projects</span></h2>
+                <p>Showcasing my latest work in design and development</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card kinetic-reveal">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="project1.jpg" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Mobile App Design</h3>
+                        <p>Modern and intuitive mobile application UI design with focus on user experience.</p>
+                        <div class="project-tags">
+                            <span>UI Design</span>
+                            <span>Mobile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card kinetic-reveal">
+                    <div class="project-image">
+                        <img src="project2.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="project2.png" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Web Dashboard</h3>
+                        <p>Comprehensive analytics dashboard with interactive charts and real-time data visualization.</p>
+                        <div class="project-tags">
+                            <span>UX Design</span>
+                            <span>Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card kinetic-reveal">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="Project 3">
+                        <div class="project-overlay">
+                            <a href="project3.jpg" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Brand Identity</h3>
+                        <p>Complete branding package including logo, color palette, and design guidelines.</p>
+                        <div class="project-tags">
+                            <span>Branding</span>
+                            <span>Graphic Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card kinetic-reveal">
+                    <div class="project-image">
+                        <img src="project4.jpg" alt="Project 4">
+                        <div class="project-overlay">
+                            <a href="project4.jpg" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-featured e-commerce platform with seamless user interface and checkout experience.</p>
+                        <div class="project-tags">
+                            <span>UI/UX</span>
+                            <span>E-Commerce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card kinetic-reveal">
+                    <div class="project-image">
+                        <img src="project5.jpg" alt="Project 5">
+                        <div class="project-overlay">
+                            <a href="project5.jpg" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>SaaS Interface</h3>
+                        <p>Enterprise software interface with advanced features and intuitive navigation.</p>
+                        <div class="project-tags">
+                            <span>UI Design</span>
+                            <span>SaaS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card kinetic-reveal">
+                    <div class="project-image">
+                        <img src="project6.jpg" alt="Project 6">
+                        <div class="project-overlay">
+                            <a href="project6.jpg" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Illustration Pack</h3>
+                        <p>Custom illustration set designed for web and mobile applications with consistent style.</p>
+                        <div class="project-tags">
+                            <span>Illustration</span>
+                            <span>Graphic Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header kinetic-reveal">
+                <h2>What I <span class="highlight">Do</span></h2>
+                <p>My core expertise and services</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card kinetic-reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting beautiful and intuitive user interfaces with a focus on user experience and accessibility.</p>
+                </div>
+
+                <div class="service-card kinetic-reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Creating compelling visual content including logos, branding, and marketing materials.</p>
+                </div>
+
+                <div class="service-card kinetic-reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Designing responsive and modern websites that engage users and drive conversions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header kinetic-reveal">
+                <h2>Let's <span class="highlight">Connect</span></h2>
+                <p>Get in touch and let's create something amazing together</p>
+            </div>
+            <div class="contact-wrapper kinetic-reveal">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>oshanherath01@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+94 71 383 0794</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Colombo, Sri Lanka</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oshan. All rights reserved. | Designed & Developed with <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
